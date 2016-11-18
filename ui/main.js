@@ -50,6 +50,7 @@ window.onload = function(){
         
         var comInput = document.getElementById('commenz');
         var comIn = comInput.value;
+        comInput.value="";
         request.open('GET', 'http://vamsik7.imad.hasura-app.io/comment-submit/?comment='+ comIn, true);
         request.send(null);
         
