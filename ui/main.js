@@ -2,7 +2,7 @@ console.log('Loaded!');
 var content = document.getElementById('content');
 var madi = document.getElementById('madi');
 
-content.innerHTML = "This is webappz";
+content.innerHTML = "This is webappzz";
 
 function move(){
    
