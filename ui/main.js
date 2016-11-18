@@ -61,6 +61,9 @@ window.onload = function(){
                     var comme = document.getElementById('comment-list');
                     comme.innerHTML = list;
                     console.log('I\'m here !');
+                    for(i=0;i<comments.length;i++){
+                        console.log(comments[i]+'\n');
+                    }
                     
                 }
             }    
