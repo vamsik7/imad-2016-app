@@ -38,7 +38,7 @@ submit.onclick = function() {
 
 // comments related
 
-var com = document.getElementById('comment-sumbit');
+
 
 com.onclick = function (){
     
@@ -52,11 +52,19 @@ com.onclick = function (){
             if(request.status === 200){
                 var comments = request.responseText;
                 comments = JSON.parse(comments);
-                
+                var list ='';
+                for(i=0;i<comments.length;i++){
+                    list +=  comments[i] + '<br/>' ;
+                }
+                var comme = document.getElementById('comment-list');
+                comme.innerHTML = list;
                 
             }
         }    
-    }
+    };
+    var com = document.getElementById('comment-sumbit');
+    request.open('GET', 'http://vamsik7.imad.hasura-app.io/comment-submit?comment='+ com, true);
+    request.send(null);
     
 };
 
