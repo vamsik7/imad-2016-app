@@ -30,7 +30,7 @@ submit.onclick = function() {
     //make the request
     var nameInput = document.getElementById('name');
     var name= nameInput.value;
-    request.open('GET','http://vamsik7.imad.hasura-app.io/submit-name/name='+ name, true );
+    request.open('GET','http://vamsik7.imad.hasura-app.io/submit-name/?name='+ name, true );
     request.send(null);
     
    
