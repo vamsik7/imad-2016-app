@@ -24,7 +24,7 @@ window.onload = function(){
                     }
                     var ulname = document.getElementById('comment-list');
                     ulname.innerHTML = listz;
-                     console.log('some problem');
+                     console.log(listz);
                 }else{
                      console.log('some problem');
                  }
