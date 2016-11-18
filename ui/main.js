@@ -2,7 +2,7 @@ console.log('Loaded!');
 
 var submit = document.getElementById('submit-btn');
 
-submit.onclick = function (){
+submit.onclick = function() {
     
     var request = new XMLHttpRequest();
     
