@@ -26,7 +26,7 @@ submit.onclick = function() {
              }
             
         }else{
-                 console.log('some problem');
+                 console.log('some problem1');
              }
     };
     //make the request
