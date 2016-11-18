@@ -8,5 +8,5 @@ function move(){
 }
 
 madi.onClick = function (){
-    setInterval(move,500);
+   var interval=  setInterval(move,500);
 }
