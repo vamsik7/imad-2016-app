@@ -56,12 +56,12 @@ window.onload = function(){
                      
                     var comments = request.responseText;
                     comments = JSON.parse(comments);
-                    var list = '';
+                    var listz = '';
                     for(var i=0; i<comments.length; i++){
-                         list += '<p>' + comments[i] + '</p>';
+                         listz += '<p>' + comments[i] + '</p>';
                     }
                     var ulname = document.getElementById('comment-list');
-                    ulname.innerHTML = list;
+                    ulname.innerHTML = listz;
                 }else{
                      console.log('some problem');
                  }
