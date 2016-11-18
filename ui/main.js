@@ -41,7 +41,7 @@ window.onload = function(){
     // comments related
     
     
-     var com = document.getElementById('sumbit-comment');
+     var com = document.getElementById('submit-comment');
     com.onclick = function (){
         
         
