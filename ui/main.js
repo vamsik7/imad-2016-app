@@ -52,6 +52,21 @@ window.onload = function(){
             
             if(request.readyState === XMLHttpRequest.DONE){
                 if(request.status === 200){
+                    
+                     
+                    var comments = request.responseText;
+                    comments = JSON.parse(comments);
+                    var list = '';
+                    for(var i=0; i<comments.length; i++){
+                         list += '<p>' + comments[i] + '</p>';
+                    }
+                    var ulname = document.getElementById('comment-list');
+                    ulname.innerHTML = list;
+                }else{
+                     console.log('some problem');
+                 }
+                    
+                    /*
                     var comments = request.responseText;
                     comments = JSON.parse(comments);
                     var list ='';
@@ -64,6 +79,7 @@ window.onload = function(){
                     for(var z=0;i<comments.length;z++){
                         console.log(comments[z]+'\n');
                     }
+                    */
                     
                 }
             }    
