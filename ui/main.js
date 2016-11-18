@@ -56,7 +56,7 @@ window.onload = function(){
                     comments = JSON.parse(comments);
                     var list ='';
                     for(i=0;i<comments.length;i++){
-                        list +=  comments[i] + '<br/>' ;
+                        list += '<p>'+ comments[i] + '</p>' ;
                     }
                     var comme = document.getElementById('comment-list');
                     comme.innerHTML = list;
