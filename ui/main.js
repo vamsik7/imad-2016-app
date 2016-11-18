@@ -5,7 +5,7 @@ var madi = document.getElementById('madi');
 content.innerHTML = "This is webappzz";
 
 function move(){
-   var marginLeft =10;
+   marginLeft= marginLeft + 10;
     madi.style.marginLeft = marginLeft + 'px';
 }
 
