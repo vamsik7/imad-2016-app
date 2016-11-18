@@ -21,10 +21,10 @@ submit.onclick = function() {
                 }
                 var ulname = document.getElementById('submit-list');
                 ulname.innerHTML = list;
-            }
+            }else{
+                 console.log('some problem');
+             }
             
-        }else{
-            console.log('some problem');
         }
     };
     //make the request
