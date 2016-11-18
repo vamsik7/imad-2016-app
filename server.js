@@ -67,6 +67,9 @@ function createTemplate(data){
             <div>
                 ${content}
             </div>
+            <div>
+            ${counter}
+            </div>
          </body>
     </html>`;
     return htmlTemplate;
@@ -74,14 +77,16 @@ function createTemplate(data){
 
 var counter=0;
 
-
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
-  counter +=1;
-    res.send(counter.toString());
+ counter +=1;
 });
 
 
+app.get('/', function (req,res){
+     
+    res.send(counter.toString());
+});
 
 app.get('/:articleName', function(req,res){
     var articleName = req.params.articleName;
