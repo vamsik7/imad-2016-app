@@ -67,9 +67,7 @@ function createTemplate(data){
             <div>
                 ${content}
             </div>
-            <div>
-            ${counter}
-            </div>
+          
          </body>
     </html>`;
     return htmlTemplate;
