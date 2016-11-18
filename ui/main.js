@@ -9,7 +9,7 @@ submit.onclick = function() {
     // responding after receiving from the server
     request.onreadystatechange = function(){
          
-        if(request.readystate === XMLHttpRequest.DONE){
+        if (request.readystate === XMLHttpRequest.DONE){
             console.log('some problem0');
             if(request.status === 200){
                  // display in the html
