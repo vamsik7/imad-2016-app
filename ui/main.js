@@ -6,11 +6,11 @@ content.innerHTML = "This is webappzz";
 var marginLeft=0;
 function move(){
     
-   marginLeft= marginLeft + 10;
+   marginLeft= marginLeft + 3;
     madi.style.marginLeft = marginLeft + 'px';
 }
 
 madi.onclick = function (){
   //  madi.style.marginLeft = '100px';
-   var interval=  setInterval(move,50);
+   var interval=  setInterval(move,40);
 }
