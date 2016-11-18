@@ -61,7 +61,7 @@ window.onload = function(){
                          listz += '<p>' + comments[i] + '</p>';
                     }
                     var ulname = document.getElementById('comment-list');
-                    ulname.innerHTML = listz;
+                    ulname.innerHTML = `<p>What the fuck ?</p>`;
                 }else{
                      console.log('some problem');
                  }
