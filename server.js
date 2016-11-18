@@ -129,6 +129,7 @@ function hash(input, salt){
 
 //password test
 app.get('/hash/:input', function(req,res){
+    var input = req.params.input
    var hashResult = hash(input,"this_is_something");
    res.send(hashResult);
     
