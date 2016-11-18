@@ -81,10 +81,7 @@ app.get('/', function (req, res) {
 });
 
 
-app.get('/', function (req,res){
-     
-    res.send(counter.toString());
-});
+
 
 
 var names=[];
