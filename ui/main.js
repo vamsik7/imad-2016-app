@@ -3,7 +3,7 @@ window.onload = function(){
     console.log('Loaded!');
     
     
-     var com = document.getElementById('submit-comment');
+     var com = document.getElementById('comment_submit');
     com.onclick = function (){
         
         
