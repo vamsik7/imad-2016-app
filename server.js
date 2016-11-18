@@ -81,7 +81,12 @@ app.get('/', function (req, res) {
 });
 
 
-
+var comments=[];
+app.get('/comment-submit', function(req,res){ // /submit?name=
+   var com = req.query.comIn;
+    comments.push(com);
+    res.send(JSON.stringify(comments));
+});
 
 
 var names=[];
@@ -92,12 +97,7 @@ app.get('/submit-name', function(req,res){ // /submit-name?name=
 });
 
 
-var comments=[];
-app.get('/comment-submit', function(req,res){ // /submit?name=
-   var com = req.query.comIn;
-    comments.push(com);
-    res.send(JSON.stringify(comments));
-});
+
 
 app.get('/:articleName', function(req,res){
     var articleName = req.params.articleName;
