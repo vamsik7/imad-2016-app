@@ -6,7 +6,7 @@ content.innerHTML = "This is webappz";
 
 function move(){
     marginLeft
-    madi.style.marginLleft = '100px';
+    madi.style.marginLeft = '100px';
 }
 
 madi.onClick = function (){
