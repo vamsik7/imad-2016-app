@@ -26,7 +26,7 @@ window.onload = function(){
                 }else{
                      console.log('some problem');
                  }
-                console.log('some problem');
+                
             }
         };
         //make the request
@@ -80,7 +80,7 @@ window.onload = function(){
                         console.log(comments[z]+'\n');
                     }
                     */
-                    
+                   console.log('some problem'); 
                 
             }    
         };
