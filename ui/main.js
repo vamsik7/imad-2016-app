@@ -39,7 +39,7 @@ submit.onclick = function() {
 // comments related
 
 
- var com = document.getElementById('comment-sumbit');
+ var com = document.getElementById('sumbit-comment');
 com.onclick = function (){
     
     
