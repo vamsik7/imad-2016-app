@@ -26,7 +26,7 @@ window.onload = function(){
                 }else{
                      console.log('some problem');
                  }
-                
+                console.log('some problem');
             }
         };
         //make the request
