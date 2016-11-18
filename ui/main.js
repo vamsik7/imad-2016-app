@@ -19,12 +19,12 @@ window.onload = function(){
                     var comments = request.responseText;
                     comments = JSON.parse(comments);
                     var listz = '';
-                    for(var i=0; i<comments.length; i++){
+                    for(var i=0; i< comments.length; i++){
                          listz += '<p>' + comments[i] + '</p>';
                     }
                     var ulname = document.getElementById('comment-list');
                     ulname.innerHTML = listz;
-                     console.log(listz);
+                     console.log(request.responseText);
                 }else{
                      console.log('some problem');
                  }
