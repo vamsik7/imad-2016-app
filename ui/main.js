@@ -60,6 +60,7 @@ window.onload = function(){
                     }
                     var comme = document.getElementById('comment-list');
                     comme.innerHTML = list;
+                    console.log('I\'m here !');
                     
                 }
             }    
