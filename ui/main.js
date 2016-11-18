@@ -76,6 +76,7 @@ window.onload = function(){
                     }
                     var ulname = document.getElementById('submit-list');
                     ulname.innerHTML = list;
+                     console.log(request.responseText);
                 }else{
                      console.log('some problem');
                  }
