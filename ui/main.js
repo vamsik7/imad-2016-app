@@ -10,7 +10,7 @@ submit.onclick = function() {
     request.onreadystatechange = function(){
         
         if(request.readystate === XMLHttpRequest.DONE){
-            if(request.readystatus === 200){
+            if(request.status === 200){
                  // display in the html
                 
                 var names = request.responseText;
@@ -25,7 +25,9 @@ submit.onclick = function() {
                  console.log('some problem');
              }
             
-        }
+        }else{
+                 console.log('some problem');
+             }
     };
     //make the request
     var nameInput = document.getElementById('name');
