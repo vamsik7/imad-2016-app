@@ -5,11 +5,11 @@ var madi = document.getElementById('madi');
 content.innerHTML = "This is webappzz";
 
 function move(){
-   
-    madi.style.marginLeft = '100px';
+   var marginLeft =10;
+    madi.style.marginLeft = marginLeft + 'px';
 }
 
 madi.onclick = function (){
   //  madi.style.marginLeft = '100px';
-   var interval=  setInterval(move,500);
+   var interval=  setInterval(move,50);
 }
