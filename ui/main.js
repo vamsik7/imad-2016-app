@@ -9,7 +9,7 @@ function move(){
     madi.style.marginLeft = '100px';
 }
 
-madi.onClick = function (){
+madi.onclick = function (){
     madi.style.marginLeft = '100px';
   // var interval=  setInterval(move,500);
 }
