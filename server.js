@@ -83,7 +83,7 @@ app.get('/', function (req, res) {
 
 var comments=[];
 app.get('/comment-submit', function(req,res){ // /submit?name=
-   var com = req.query.comIn;
+   var com = req.query.comment;
     comments.push(com);
     res.send(JSON.stringify(comments));
 });
