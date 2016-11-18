@@ -42,7 +42,7 @@ window.onload = function(){
                         console.log(comments[z]+'\n');
                     }
                     */
-                   console.log('some problem'); 
+                   //console.log('some problem'); 
                 
             }    
         };
