@@ -12,5 +12,5 @@ function move(){
 
 madi.onclick = function (){
   //  madi.style.marginLeft = '100px';
-   var interval=  setInterval(move,40);
+   var interval=  setInterval(move,20);
 }
