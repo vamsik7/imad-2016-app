@@ -15,7 +15,7 @@ submit.onclick = function (){
                 names = JSON.parse(names);
                 var list = '';
                 for(var i=0; i<names.length; i++){
-                     list += '<li>' + name[i] + '</li>';
+                     list += '<li>' + names[i] + '</li>';
                 }
                 var ulname = document.getElementById('submit-list');
                 ulname.innerHTML = list;
