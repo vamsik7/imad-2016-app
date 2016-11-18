@@ -85,10 +85,18 @@ app.get('/', function (req, res) {
 
 
 var names=[];
-app.get('/submit-name', function(req,res){ // /submit?name=
+app.get('/submit-name', function(req,res){ // /submit-name?name=
    var name = req.query.name;
     names.push(name);
     res.send(JSON.stringify(names));
+});
+
+
+var comments=[];
+app.get('/comment-submit', function(req,res){ // /submit?name=
+   var com = req.query.com;
+    comments.push(com);
+    res.send(JSON.stringify(comments));
 });
 
 app.get('/:articleName', function(req,res){
