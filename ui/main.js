@@ -1,10 +1,12 @@
 console.log('Loaded!');
 
 var submit = document.getElementById('submit-btn');
+
 submit.onclick = function (){
-    // request the sever and get it back
+    
     var request = new XMLHttpRequest();
     
+    // responding after receiving from the server
     request.onreadystatechange = function(){
         
         if(request.readystatechange === XMLHttpRequest.DONE){
@@ -22,9 +24,10 @@ submit.onclick = function (){
             }
             
         }else{
-            
+            console.log('some problem');
         }
     };
+    //make the request
     var nameInput = document.getElementById('name');
     var name= nameInput.value;
     request.open('GET','http://vamsik7.imad.hasura-app.io/submit-name/name='+ name, true );
