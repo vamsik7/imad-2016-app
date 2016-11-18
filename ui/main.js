@@ -36,7 +36,29 @@ submit.onclick = function() {
    
 };
 
+// comments related
 
+var com = document.getElementById('comment-sumbit');
+
+com.onclick = function (){
+    
+    
+    var request = new XMLHttpRequest();
+    // getting back from the server
+    
+    request.onreadystatechange = function (){
+        
+        if(request.readyState === XMLHttpRequest.DONE){
+            if(request.status === 200){
+                var comments = request.responseText;
+                comments = JSON.parse(comments);
+                
+                
+            }
+        }    
+    }
+    
+};
 
 
 
