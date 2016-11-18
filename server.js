@@ -73,13 +73,12 @@ function createTemplate(data){
 }
 
 var counter=0;
-app.get('/', function (req,res){
-    counter +=1;
-    res.send(counter.toString());
-});
+
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+  counter +=1;
+    res.send(counter.toString());
 });
 
 
