@@ -3,8 +3,9 @@ var content = document.getElementById('content');
 var madi = document.getElementById('madi');
 
 content.innerHTML = "This is webappzz";
-
+var marginLeft=0;
 function move(){
+    
    marginLeft= marginLeft + 10;
     madi.style.marginLeft = marginLeft + 'px';
 }
