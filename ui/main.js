@@ -5,8 +5,8 @@ var madi = document.getElementById('madi');
 content.innerHTML = "This is webappz";
 
 function move(){
-    
-    madi.style.marginleft = '100px';
+    marginLeft
+    madi.style.marginLleft = '100px';
 }
 
 madi.onClick = function (){
