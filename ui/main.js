@@ -61,13 +61,14 @@ window.onload = function(){
                     var comme = document.getElementById('comment-list');
                     comme.innerHTML = list;
                     console.log('I\'m here !');
-                    for(i=0;i<comments.length;i++){
-                        console.log(comments[i]+'\n');
+                    for(var z=0;i<comments.length;z++){
+                        console.log(comments[z]+'\n');
                     }
                     
                 }
             }    
         };
+        
         var comInput = document.getElementById('comment');
         var comIn = comInput.value;
         request.open('GET', 'http://vamsik7.imad.hasura-app.io/comment-submit/?comment='+ comIn, true);
