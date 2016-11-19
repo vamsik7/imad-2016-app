@@ -85,7 +85,18 @@ body {
 	
 }
 
+#rmlink{
+	
+	background:#000000;
+	color:#FFFFFF;
+	float:right;
+	padding:10px;
+	text-decoration:none;
+}
 
+#rmlink:hover{
+	text-decoration:underline;
+}
 
 
 /*
