@@ -79,7 +79,7 @@ function createTemplate (data) {
 			
 			<div class="side_bar">
 			     <div id="login_area">
-                  <center>Loading login status...</center>
+                  <center><a href="/">Login</a></center>
                </div>
 			     
 			</div>
