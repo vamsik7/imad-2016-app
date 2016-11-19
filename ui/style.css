@@ -98,7 +98,7 @@ body {
 /* Its in main.js file to bring in login template */
 
 .login_js{
-   margin: auto;
+   margin-left: 10px;
 }
 
 #rmlink:hover{
