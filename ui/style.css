@@ -94,11 +94,19 @@ body {
 	text-decoration:none;
 }
 
+/* In server.js -- template css*/
+#article_content {
+    text-align:justify;
+}
 
 /* Its in main.js file to bring in login template */
 
 .login_js{
    margin-left: 10px;
+}
+
+.login_js h4{
+   text-align:center;
 }
 
 .login_js input[type=text], input[type=password] {
