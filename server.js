@@ -43,7 +43,7 @@ function createTemplate (data) {
     <body>
         <div class="navbar">
             <div>
-                <a href="/"><img id="madi" src="/ui/madi.png" style="width:70px; height:50px;" class="img-small"/></a>
+                
             </div>
 			      
 		</div>  
