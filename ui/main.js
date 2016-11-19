@@ -117,9 +117,16 @@ function loadArticles () {
                 var content = '<ul>';
                 var articleData = JSON.parse(this.responseText);
                 for (var i=0; i< articleData.length; i++) {
+                    
+                    content+=`
+                        <h2><a href="/articles/${articleData[i].title}">${articleData[i].heading}</a></h2>
+							<h4>(${articleData[i].date.split('T')[0]})</h4>
+							<div>${substr(articleData[i].content,0,200)} <a id='rmlink' style='float:right;' href="/articles/${articleData[i].title}">Read More</a></div><br/><hr/>
+                    `;
+                    /*
                     content += `<li>
                     <a href="/articles/${articleData[i].title}">${articleData[i].heading}</a>
-                    (${articleData[i].date.split('T')[0]})</li>`;
+                    (${articleData[i].date.split('T')[0]})</li>`;*/
                 }
                 content += "</ul>"
                 articles.innerHTML = content;
