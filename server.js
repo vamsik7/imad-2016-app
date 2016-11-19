@@ -89,7 +89,7 @@ function createTemplate (data) {
 			     <div id="login_area">
                   <center><a href="#" onclick="toggle_visibility('login_hide');">Login</a></center>
                   
-                        <div class="login_hide" style="display:none;">
+                        <div id="login_hide" style="display:none;">
                         <h4>Login</h4>
                         <input type="text" id="username" placeholder="username" name="firstname">
                         <br/>
