@@ -8,7 +8,7 @@ function loadComments () {
     request.onreadystatechange = function () {
         if (request.readyState === XMLHttpRequest.DONE) {
             var comments = document.getElementById('comments');
-            console.log(responseText);
+            console.log(request.responseText);
             if (request.status === 200) {
                 var content = '';
                 console.log('in here');
