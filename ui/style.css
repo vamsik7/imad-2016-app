@@ -60,7 +60,7 @@ body {
     margin: 0;
     
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
     background-color: #333;
 }
 
@@ -94,6 +94,12 @@ body {
 	overflow:auto;
 		
 }
+
+#short_article{
+	max-height:400px;
+	overflow:auto;
+}
+
 #commentz{
 	padding:10px;
 }
@@ -104,8 +110,8 @@ body {
 
 .side_bar {
 	
-	width:270px;
-
+	min-width:100px;
+	max-width:270px;
 	background: white;
 	
 	border: solid 1px #666;
@@ -163,7 +169,8 @@ textarea {
 }
 
 .login_js input[type=text], input[type=password] {
-    padding:5px; 
+    padding:7px; 
+    margin-left:27px;
     border:2px solid #e0e0e0; 
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -176,6 +183,7 @@ textarea {
 
 .login_js input[type=submit] {
     padding:5px 15px; 
+     margin-left:26px;
     background:#ffffff; 
    border:2px solid #e0e0e0;
     cursor:pointer;
