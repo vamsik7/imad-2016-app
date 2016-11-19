@@ -55,11 +55,11 @@ body {
 
 .post_area{
 	clear: left;
-	width:70%;
+	width:73%;
 	background:white;
 	float: left;
 	margin-right: 10px;
-
+	padding:10px;
 	border: solid 1px #666;
 	overflow:auto;
 		
