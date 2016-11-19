@@ -119,8 +119,8 @@ function loadArticles () {
                 for (var i=0; i< articleData.length; i++) {
                     
                     content+=`
-                        <h2><a href="/articles/${articleData[i].title}">${articleData[i].heading}</a></h2>
-							<h4>(${articleData[i].date.split('T')[0]})</h4>
+                        <h3><a href="/articles/${articleData[i].title}">${articleData[i].heading}</a></h3>
+							<h5>(${articleData[i].date.split('T')[0]})</h5>
 							<div>${(articleData[i].content).substr(0,200)} <a id='rmlink' style='float:right;' href="/articles/${articleData[i].title}">Read More</a></div><br/><hr/>
                     `;
                     /*
