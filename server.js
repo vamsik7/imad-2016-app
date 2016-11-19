@@ -55,14 +55,14 @@ function createTemplate (data) {
 			<div class="post_area">
 			   <div id="articles">
                   <h4>${heading}</h4>
+                  
+                  <div>
+                     <h6> ${date.toDateString()}</h6>
+                  </div>
+                  <div id="article_content">
+                    ${content}
+                  </div>
               </div>
-              <div>
-                 <h6> ${date.toDateString()}</h6>
-              </div>
-              <div id="article_content">
-                ${content}
-              </div>
-              
 			    
 			     
 			 <hr/>
