@@ -1,6 +1,6 @@
-$(document).ready(function() {
-    
-function loadLoginForm () {
+$(window).load(function() {
+ // executes when complete page is fully loaded, including all frames, objects and images
+ function loadLoginForm () {
     var loginHtml = `
         <h3>Login/Register to unlock awesome features</h3>
         <input type="text" id="username" placeholder="username" />
@@ -141,8 +141,10 @@ loadArticles();
 
 
     
-});
 
+
+});
+    
 
 
 
