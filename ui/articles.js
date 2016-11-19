@@ -38,7 +38,7 @@ function loadComments () {
 function loadCommentForm () {
     var commentFormHtml = `
         
-        <h5>Submit a comment</h5>
+        <h5><span class="glyphicon glyphicon-comment"></span></h5>
         <textarea id="comment_text" rows="5" cols="110" placeholder="Enter your comment here..."></textarea>
         <br/><br/>
         <input type="submit" id="submit" value="Post" style="float:right;" />
