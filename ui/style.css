@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 
 .container{
 	
-	width: 1000px;
+	width: 1400px;
 	margin: auto;
 }
 
@@ -45,7 +45,7 @@ body {
 
 
 .navbar{
-	width:1000px;
+	width:1400px;
 	height: 50px;
 	background: black;
 	color:white;
