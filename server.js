@@ -62,7 +62,7 @@ function createTemplate (data) {
                 ${content}
               </div>
               
-			     <p>zzz</p>
+			    
 			     
 			 <hr/>
               <h4>Comments</h4>
