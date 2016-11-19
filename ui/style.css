@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 
 .container{
 	
-	width: 1200px;
+	width: 1250px;
 	margin: auto;
 }
 
@@ -66,7 +66,7 @@ body {
 
 .side_bar {
 	
-	width:248px;
+	width:308px;
 	background: white;
 	float:right;
 	border: solid 1px #666;
