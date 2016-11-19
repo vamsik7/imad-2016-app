@@ -240,7 +240,8 @@ input[type=submit]:active {
 }
 
 #articles iframe {
-    
+     width:500px;
+    height:350px;
 	padding:5px;
 	max-width:100%;
 	
