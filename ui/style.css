@@ -55,7 +55,8 @@ body {
 
 .post_area{
 	clear: left;
-	width:73%;
+	width:850px;
+	max-width:100%;
 	background:white;
 	float: left;
 	margin-right: 10px;
@@ -68,11 +69,13 @@ body {
 
 .side_bar {
 	
-	width:25%;
+	width:270px;
+
 	background: white;
 	
 	border: solid 1px #666;
 	overflow:auto;
+	padding-bottom:5px;
 	
 }
 
