@@ -61,10 +61,13 @@ body {
 	float: left;
 	margin-right: 10px;
 	margin-bottom:10px;
-	padding:10px;
+	padding:1px;
 	border: solid 1px #666;
 	overflow:auto;
 		
+}
+#commentz{
+	padding:1px;
 }
 
 .side_bar {
@@ -161,7 +164,11 @@ textarea {
      
 }
 
-
+#articles{
+	padding:10px;
+	font-family:sans-serif; 
+	background-color:#ffffff
+}
 
 
 /*
