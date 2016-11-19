@@ -62,7 +62,7 @@ function loadCommentForm () {
                     loadComments();    
                     
                 } else {
-                    alert('Error: couldn\'t comment.Login/Register to comment.');
+                    alert('Error: couldn\'t post. Login/Register to comment.');
                 }
                 submit.value = 'Submit';
           }
