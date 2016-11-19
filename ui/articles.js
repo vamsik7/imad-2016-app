@@ -1,4 +1,6 @@
-
+$(document).ready(function() {
+ // executes when HTML-Document is loaded and DOM is ready
+ 
 var currentArticleTitle = window.location.pathname.split('/')[2];
 
 function loadCommentForm () {
@@ -101,3 +103,6 @@ function loadComments () {
 loadLogin();
 loadCommentForm();
 loadComments();
+ 
+});
+
