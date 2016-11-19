@@ -164,7 +164,7 @@ function loadNavbar () {
             console.log(request.responseText);
             if (request.status === 200) {
                  
-                var content = '<ul>';
+                var content = '<ul><a href="/"><img id="madi" src="/ui/madi.png" style="width:70px; height:50px; margin: 5px;" class="img-small"/></a>';
                 var navdata = JSON.parse(this.responseText);
                 for (var i=0; i< navdata.length; i++) {
                     
