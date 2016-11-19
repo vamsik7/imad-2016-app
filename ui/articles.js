@@ -10,6 +10,7 @@ function loadComments () {
             var comments = document.getElementById('comments');
             if (request.status === 200) {
                 var content = '';
+                console.log('in here');
                 var commentsData = JSON.parse(this.responseText);
                 for (var i=0; i< commentsData.length; i++) {
                     var time = new Date(commentsData[i].timestamp);
@@ -55,7 +56,7 @@ function loadCommentForm () {
                     // clear the form & reload all the comments
                     document.getElementById('comment_text').value = '';
                     loadComments();    
-                    console.log('in here');
+                    
                 } else {
                     alert('Error! Could not submit comment');
                 }
