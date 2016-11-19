@@ -55,7 +55,7 @@ body {
 
 .post_area{
 	clear: left;
-	width:820px;
+	width:70%;
 	background:white;
 	float: left;
 	margin-right: 10px;
@@ -67,7 +67,7 @@ body {
 
 .side_bar {
 	
-	width:308px;
+	width:25%;
 	background: white;
 	float:right;
 	border: solid 1px #666;
