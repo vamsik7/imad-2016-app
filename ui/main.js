@@ -176,7 +176,7 @@ function loadNavbar () {
                 content += "</ul>"
                 navbar.innerHTML = content;
             } else {
-                navbar.innerHTML('Oops! Could not load the categories!')
+                navbar.innerHTML = 'Oops! Could not load the categories!';
             }
         }
     };
