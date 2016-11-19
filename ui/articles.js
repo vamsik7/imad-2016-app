@@ -20,6 +20,7 @@ function loadComments () {
                         <div class="commenter">
                             ${commentsData[i].username} - ${time.toLocaleTimeString()} on ${time.toLocaleDateString()} 
                         </div>
+                        <hr/>
                     </div>`;
                 }
                 comments.innerHTML = content;
@@ -37,7 +38,7 @@ function loadCommentForm () {
     var commentFormHtml = `
         <h5>Submit a comment</h5>
         <textarea id="comment_text" rows="5" cols="100" placeholder="Enter your comment here..."></textarea>
-        <br/>
+        <br/><br/>
         <input type="submit" id="submit" value="Post" style="float:right;" class="login_js" />
         <br/>
         `;
