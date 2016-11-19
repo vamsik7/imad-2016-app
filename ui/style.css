@@ -87,11 +87,21 @@ body {
 
 #rmlink{
 	
-	background:#000000;
+	background:#757070;
 	color:#FFFFFF;
 	float:right;
 	padding:10px;
 	text-decoration:none;
+}
+
+#rmlink:hover{
+	
+	background-color:#8e8b8b;
+}
+#rmlink:active{
+	text-decoration:underline;
+		background-color:#4a4848;
+
 }
 
 /* In server.js -- template css*/
@@ -148,9 +158,6 @@ textarea {
 }
 
 
-#rmlink:hover{
-	text-decoration:underline;
-}
 
 
 /*
