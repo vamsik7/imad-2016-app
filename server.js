@@ -22,13 +22,6 @@ app.use(session({
     cookie: { maxAge: 1000 * 60 * 60 * 24 * 30}
 }));
 
-function toggle_visibility(id) {
-       var e = document.getElementById(id);
-       if(e.style.display == 'block')
-          e.style.display = 'none';
-       else
-          e.style.display = 'block';
-    }
 
 function createTemplate (data) {
     var title = data.title;
@@ -87,9 +80,8 @@ function createTemplate (data) {
 			
 			<div class="side_bar">
 			     <div id="login_area">
-                  <center><a href="#" onclick="toggle_visibility('login_hide');">Login</a></center>
                   
-                        <div id="login_hide" style="display:none;">
+                        <div class="login_js">
                         <h4>Login</h4>
                         <input type="text" id="username" placeholder="username" name="firstname">
                         <br/>
