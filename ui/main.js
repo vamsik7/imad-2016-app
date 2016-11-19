@@ -3,12 +3,14 @@ window.onload = function() {
  
  function loadLoginForm () {
      var loginHtml=`
+        <div class="login_js">
         <h4>Login</h4>
-        <input type="text" id="username" placeholder="username" name="firstname" class="col-md-6">
+        <input type="text" id="username" placeholder="username" name="firstname" class="col-md-6"><br/>
         <input type="password" id="password" class="col-md-6">
         <br/><br/>
         <input type="submit" id="login_btn" value="Login" class="col-md-3"/>
         <input type="submit" id="register_btn" value="Register" class="col-md-3" />
+        </div>
      `;
      /*
     var loginHtml = `
