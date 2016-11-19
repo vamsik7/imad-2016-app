@@ -62,7 +62,7 @@ function loadCommentForm () {
                     loadComments();    
                     
                 } else {
-                    alert('Error! Could not submit comment');
+                    alert('Error: couldn\'t comment.Login/Register to comment.');
                 }
                 submit.value = 'Submit';
           }
@@ -73,7 +73,7 @@ function loadCommentForm () {
         request.open('POST', '/submit-comment/' + currentArticleTitle, true);
         request.setRequestHeader('Content-Type', 'application/json');
         request.send(JSON.stringify({comment: comment}));  
-        submit.value = 'Submitting...';
+        submit.value = 'Posting...';
         
     };
 }
