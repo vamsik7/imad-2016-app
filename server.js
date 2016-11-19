@@ -95,11 +95,11 @@ function createTemplate (data) {
 			    <h5 style="paddding:20px; text-align:center">All rights reserved &copy; - Vamsi, email: cs11b007@iith.ac.in</h5>
 		</div>
 	    
-	    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
-        <script>tinymce.init({ selector:'textarea' });</script>
+	    <script type="text/javascript" src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+        <script type="text/javascript">tinymce.init({ selector:'textarea' });</script>
         <script type="text/javascript" src="/ui/articles.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
 	    
         
