@@ -94,6 +94,10 @@ body {
 	text-decoration:none;
 }
 
+.login_js{
+    background:#000;
+}
+
 #rmlink:hover{
 	text-decoration:underline;
 }
