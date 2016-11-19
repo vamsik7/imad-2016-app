@@ -80,6 +80,17 @@ function createTemplate (data) {
 			<div class="side_bar">
 			     <div id="login_area">
                   <center><a href="/">Login</a></center>
+                  
+                        <div class="login_hide">
+                        <h4>Login</h4>
+                        <input type="text" id="username" placeholder="username" name="firstname">
+                        <br/>
+                        <input type="password" id="password">
+                        <br/><br/>
+                        <input type="submit" id="login_btn" value="Login"/>
+                        <input type="submit" id="register_btn" value="Register" />
+                       </div>
+     
                </div>
 			     
 			</div>
