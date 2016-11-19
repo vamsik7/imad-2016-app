@@ -79,7 +79,7 @@ function createTemplate (data) {
 			
 			<div class="side_bar">
 			     <div id="login_area">
-                  <center><a href="/">Login</a></center>
+                  <center><a href="#" onclick="toggle_visibility('login_hide');">Login</a></center>
                   
                         <div class="login_hide">
                         <h4>Login</h4>
