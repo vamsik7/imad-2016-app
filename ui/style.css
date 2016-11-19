@@ -99,6 +99,10 @@ body {
     text-align:justify;
 }
 
+textarea {
+	max-width: 100%;
+}
+
 /* Its in main.js file to bring in login template */
 
 .login_js{
