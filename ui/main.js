@@ -121,7 +121,7 @@ function loadArticles () {
                     content+=`
                         <h3><a href="/articles/${articleData[i].title}">${articleData[i].heading}</a></h3>
 							<h5>(${articleData[i].date.split('T')[0]})</h5>
-							<div>${(articleData[i].content).substr(0,200)} <a id='rmlink' style='float:right;' href="/articles/${articleData[i].title}">Read More</a></div><br/><hr/>
+							<div>${(articleData[i].content).substr(0,200)}... <a id='rmlink' style='float:right;' href="/articles/${articleData[i].title}">Read More</a></div><br/><hr/>
                     `;
                     /*
                     content += `<li>
