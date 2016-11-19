@@ -67,7 +67,11 @@ body {
 		
 }
 #commentz{
-	padding:1px;
+	padding:10px;
+}
+#comment_form{
+	background-color:#fbfbfb;
+	padding:22px;
 }
 
 .side_bar {
@@ -151,13 +155,35 @@ textarea {
     border-radius: 5px; 
 }
 
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ffffff; 
+   border:2px solid #e0e0e0;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
 .login_js input[type=submit]:hover {
     
     background:#eaeaea; 
     border-radius: 5px;
      
 }
+input[type=submit]:hover {
+    
+    background:#eaeaea; 
+    border-radius: 5px;
+     
+}
+
 .login_js input[type=submit]:active {
+    
+    background:#d4d4d4; 
+    border-radius: 1px;
+     
+}
+input[type=submit]:active {
     
     background:#d4d4d4; 
     border-radius: 1px;
