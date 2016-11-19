@@ -101,7 +101,7 @@ body {
    margin-left: 10px;
 }
 
-.login_js input[type=text] {
+.login_js input[type=text] input[type=password] {
     padding:5px; 
     border:2px solid #ccc; 
     -webkit-border-radius: 5px;
