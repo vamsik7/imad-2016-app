@@ -53,10 +53,34 @@ body {
 	margin-bottom: 15px;
 }
 
+.post_area{
+	clear: left;
+	width:720px;
+	background:white;
+	float: left;
+	margin-right: 10px;
+	padding:10px;
+		
+}
 
+.side_bar {
+	
+	width:248px;
+	background: #f99;
+	float:right;
+	border: solid 1px #666;
+	
+}
 
-
-
+.footer{
+	clear:both;
+	width: 1000px;
+	height: 100px;
+	margin-top: 100px;
+	background: black;
+	color: white;
+	
+}
 
 
 
