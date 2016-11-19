@@ -46,7 +46,7 @@ function loadCommentForm () {
     submit.onclick = function () {
         // Create a request object
         var request = new XMLHttpRequest();
-        console.log('in here');
+        
         // Capture the response and store it in a variable
         request.onreadystatechange = function () {
           if (request.readyState === XMLHttpRequest.DONE) {
@@ -55,6 +55,7 @@ function loadCommentForm () {
                     // clear the form & reload all the comments
                     document.getElementById('comment_text').value = '';
                     loadComments();    
+                    console.log('in here');
                 } else {
                     alert('Error! Could not submit comment');
                 }
