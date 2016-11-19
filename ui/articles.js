@@ -104,7 +104,42 @@ function escapeHTML (text)
 }
 
 
+function loadNavbar () {
+        // Check if the user is already logged in
+    var request = new XMLHttpRequest();
+    request.onreadystatechange = function () {
+        if (request.readyState === XMLHttpRequest.DONE) {
+           
+            var navbar = document.getElementById('navbar');
+            console.log(request.responseText);
+            if (request.status === 200) {
+                
+                var content = '<ul><li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>';
+                var navdata = JSON.parse(this.responseText);
+                for (var i=0; i< navdata.length; i++) {
+                    
+                    content+=`<li>
+                        <a href="/">${navdata[i].name}</a>
+                        </li>
+                    `;
+                    /*
+                    content += `<li>
+                    <a href="/articles/${articleData[i].title}">${articleData[i].heading}</a>
+                    (${articleData[i].date.split('T')[0]})</li>`;*/
+                }
+                content += "</ul>";
+                navbar.innerHTML = content;
+            } else {
+                navbar.innerHTML = 'Oops! Could not load the categories!';
+            }
+        }
+    };
+    
+    request.open('GET', '/get-categories', true);
+    request.send(null);
+}
 
+loadNavbar();
 
 // The first thing to do is to check if the user is logged in!
 loadLogin();
