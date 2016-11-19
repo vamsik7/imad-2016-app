@@ -61,6 +61,7 @@ body {
 	margin-right: 10px;
 	padding:10px;
 	border: solid 1px #666;
+	overflow:auto;
 		
 }
 
@@ -70,6 +71,7 @@ body {
 	background: white;
 	float:right;
 	border: solid 1px #666;
+	overflow:auto;
 	
 }
 
