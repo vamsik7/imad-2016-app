@@ -1,4 +1,5 @@
-
+$(document).ready(function() {
+    
 function loadLoginForm () {
     var loginHtml = `
         <h3>Login/Register to unlock awesome features</h3>
@@ -138,6 +139,9 @@ loadLogin();
 // Now this is something that we could have directly done on the server-side using templating too!
 loadArticles();
 
+
+    
+});
 
 
 
