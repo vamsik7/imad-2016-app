@@ -53,10 +53,10 @@ function createTemplate (data) {
 			
 			<div class="post_area">
 			   <div id="articles">
-                  ${heading}
+                  <h4>${heading}</h4>
               </div>
               <div>
-                  ${date.toDateString()}
+                 <h6> ${date.toDateString()}</h6>
               </div>
               <div>
                 ${content}
@@ -81,7 +81,7 @@ function createTemplate (data) {
 			     <div id="login_area">
                   <center>Loading login status...</center>
                </div>
-			     <p>zzz</p>
+			     
 			</div>
 			
 			
