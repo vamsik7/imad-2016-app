@@ -169,7 +169,7 @@ function loadNavbar () {
                 for (var i=0; i< navdata.length; i++) {
                     
                     content+=`<li>
-                        ${navdata[i].name}
+                        <a href="/">${navdata[i].name}</a>
                         </li>
                     `;
                     /*
