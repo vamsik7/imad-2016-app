@@ -4,6 +4,8 @@ window.onload = function() {
  function loadLoginForm () {
      var loginHtml=`
         <div class="login_js">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
         <h4>Login</h4>
         <input type="text" id="username" placeholder="username" name="firstname" class="col-md-6"><br/>
         <input type="password" id="password" class="col-md-6">
