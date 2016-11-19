@@ -160,7 +160,13 @@ loadLogin();
 // Now this is something that we could have directly done on the server-side using templating too!
 loadArticles();
 
-
+function toggle_visibility(id) {
+       var e = document.getElementById('login_hide');
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
     
 
 };
