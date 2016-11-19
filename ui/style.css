@@ -100,6 +100,13 @@ body {
 	overflow:auto;
 }
 
+#short_article iframe{
+	max-width:200px;
+	max-height:200px;
+	clear:both;
+	margin:0 auto;
+}
+
 #commentz{
 	padding:10px;
 }
