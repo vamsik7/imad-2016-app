@@ -41,7 +41,7 @@ function createTemplate (data) {
     </head>
     
     <body>
-        <div class="navbar">
+        <div class="navbar" id="navbar">
             <div>
                 
             </div>
