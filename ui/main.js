@@ -1,5 +1,6 @@
-$(window).load(function() {
- // executes when complete page is fully loaded, including all frames, objects and images
+
+window.onload = function() {
+ 
  function loadLoginForm () {
     var loginHtml = `
         <h3>Login/Register to unlock awesome features</h3>
@@ -142,8 +143,9 @@ loadArticles();
 
     
 
+};
 
-});
+
     
 
 
