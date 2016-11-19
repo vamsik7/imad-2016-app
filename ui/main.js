@@ -163,8 +163,8 @@ function loadNavbar () {
             var navbar = document.getElementById('navbar');
             console.log(request.responseText);
             if (request.status === 200) {
-                 
-                var content = '<ul><li><a href="/"><img id="madi" src="/ui/madi.png" style="width:70px; height:50px; margin: 5px;" class="img-small"/></a></li>';
+                
+                var content = '<ul><li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>';
                 var navdata = JSON.parse(this.responseText);
                 for (var i=0; i< navdata.length; i++) {
                     
