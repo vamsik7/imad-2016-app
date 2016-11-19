@@ -27,7 +27,83 @@ function createTemplate (data) {
     var date = data.date;
     var heading = data.heading;
     var content = data.content;
+   
+   var htmlTemplate =`
+        <html>
+    <head>
+         <title>
+            ${title}
+         </title>
+        <link href="/ui/style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+        <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+  		<script>tinymce.init({ selector:'textarea' });</script>
+    </head>
     
+    <body>
+        <div class="navbar">
+            <div>
+                <a href="/"><img id="madi" src="/ui/madi.png" style="width:70px; height:50px;" class="img-small"/></a>
+            </div>
+			      
+		</div>  
+        <div  class="container">
+			
+			
+			<div class="post_area">
+			   <div id="articles">
+                  ${heading}
+              </div>
+              <div>
+                  ${date.toDateString()}
+              </div>
+              <div>
+                ${content}
+              </div>
+              
+			     <p>zzz</p>
+			     
+			 <hr/>
+              <h4>Comments</h4>
+              <div id="comment_form">
+              </div>
+              <div id="comments">
+                <center>Loading comments...</center>
+              </div>
+          </div>
+          
+			
+			
+			
+			
+			<div class="side_bar">
+			     <div id="login_area">
+                  <center>Loading login status...</center>
+               </div>
+			     <p>zzz</p>
+			</div>
+			
+			
+	    </div>
+	    <div class="footer">
+			    <h5 style="paddding:20px; text-align:center">All rights reserved &copy; - Vamsi, email: cs11b007@iith.ac.in</h5>
+		</div>
+	    
+	    
+        <script type="text/javascript" src="/ui/articles.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/ui/main.js"></script>
+	    
+        
+    </body>
+   
+     
+    </html>
+   `;
+   return htmlTemplate;
+   /* 
     var htmlTemplate = `
     <html>
       <head>
@@ -64,6 +140,7 @@ function createTemplate (data) {
       </body>
     </html>
     `;
+    */
     return htmlTemplate;
 }
 
