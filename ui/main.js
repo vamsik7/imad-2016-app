@@ -159,6 +159,7 @@ function loadNavbar () {
     var request = new XMLHttpRequest();
     request.onreadystatechange = function () {
         if (request.readyState === XMLHttpRequest.DONE) {
+            console.log(request.response.Text);
             var navbar = document.getElementById('navbar');
             if (request.status === 200) {
                 var content = '<ul>';
