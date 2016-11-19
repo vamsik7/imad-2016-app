@@ -239,6 +239,11 @@ input[type=submit]:active {
 	background-color:#ffffff
 }
 
+#articles iframe {
+	padding:5px;
+	max-width:100%;
+	
+}
 
 /*
 .center {
