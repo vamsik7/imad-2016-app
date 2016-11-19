@@ -134,6 +134,8 @@ body {
 	margin-top: 100px;
 	background: #eee;
 	color: black;
+	bottom:0;
+	position:relative;
 	
 }
 
