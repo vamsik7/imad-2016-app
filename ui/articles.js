@@ -42,7 +42,7 @@ function loadCommentForm () {
         <textarea id="comment_text" rows="5" cols="110" placeholder="Enter your comment here..."></textarea>
         <br/><br/>
         <input type="submit" id="submit" value="Post" style="float:right;" />
-        <br/><hr/>
+        <br/>
         `;
      document.getElementById('comment_form').innerHTML = commentFormHtml;
     
