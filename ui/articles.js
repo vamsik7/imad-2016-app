@@ -18,7 +18,7 @@ function loadComments () {
                     content += `<div class="comment">
                         <p>${escapeHTML(commentsData[i].comment)}</p>
                         <div class="commenter">
-                           <h5> ${commentsData[i].username}</h5> <h6> ${time.toLocaleTimeString()} on ${time.toLocaleDateString()}</h6> 
+                           <em> ${commentsData[i].username}</em> <h6> ${time.toLocaleTimeString()} on ${time.toLocaleDateString()}</h6> 
                         </div>
                         <hr/>
                     </div>`;
