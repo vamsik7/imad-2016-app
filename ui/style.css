@@ -143,6 +143,29 @@ body {
      
 }
 
+.comment_submit input[type=submit]{
+    padding:5px 15px; 
+    background:#ffffff; 
+   border:2px solid #e0e0e0;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+
+.comment_submit input[type=submit]:hover {
+    
+    background:#eaeaea; 
+    border-radius: 5px;
+     
+}
+.comment_submit input[type=submit]:active {
+    
+    background:#d4d4d4; 
+    border-radius: 1px;
+     
+}
+
 #rmlink:hover{
 	text-decoration:underline;
 }
