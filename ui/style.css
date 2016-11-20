@@ -107,6 +107,11 @@ body {
 	margin:0 auto;
 }
 
+#short_article img{
+    max-width:200px;
+    max-height:200px;
+}
+
 #commentz{
 	padding:10px;
 }
