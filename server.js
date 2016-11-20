@@ -147,7 +147,7 @@ function createTemplate (data) {
     </html>
     `;
     */
-    return htmlTemplate;
+    
 }
 
 
