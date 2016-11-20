@@ -143,10 +143,10 @@ function loadArticles () {
                     <a href="/articles/${articleData[i].title}">${articleData[i].heading}</a>
                     (${articleData[i].date.split('T')[0]})</li>`;*/
                 }
-                content += "</ul>"
+                content += "</ul>";
                 articles.innerHTML = content;
             } else {
-                articles.innerHTML('Oops! Could not load all articles!')
+                articles.innerHTML ='Oops! Could not load all articles!';
             }
         }
     };
@@ -179,7 +179,7 @@ function loadNavbar () {
                     <a href="/articles/${articleData[i].title}">${articleData[i].heading}</a>
                     (${articleData[i].date.split('T')[0]})</li>`;*/
                 }
-                content += "</ul>"
+                content += "</ul>";
                 navbar.innerHTML = content;
             } else {
                 navbar.innerHTML = 'Oops! Could not load the categories!';
